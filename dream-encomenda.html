@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Razer Laptops</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+
+    header {
+      background-color: #000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .pc {
+      position: relative;
+      max-width: 300px; /* Largura máxima da descrição */
+      margin: 20px;
+    }
+
+    .image-container img {
+      max-width: 95%;
+      height: auto;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .pc p {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    .pc .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+      border-radius: 10px;
+    }
+
+    .pc:hover .overlay {
+      opacity: 1;
+    }
+
+    .descrição {
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+      max-height: 100%;
+      overflow: hidden;
+    }
+
+    .descrição p {
+      line-height: 1.5;
+    }
+
+    .descrição button {
+      margin-top: 10px;
+      border-radius: 5px;
+      padding: 5px 10px;
+      background-color: #4285f4;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .descrição button:hover {
+      background-color: #2962ff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Dream PC</h1>
+  </header>
+
+  <div class="image-container">
+    <div class="pc">
+      <a href="dream-venda-pc1.php">
+        <img src="https://assets2.razerzone.com/images/pnx.assets/df55b8678b4404b48cb85675772298c5/thumb-blade14.webp"
+          alt="Razer Laptop 1">
+      </a>
+      <p>RAZER BLADE 14</p>
+      <div class="overlay">
+        <div class="descrição">
+          <p>Ultra-powerful, ultra-portable 14-inch gaming laptop with an AMD Ryzen™ 9 7940HS processor and NVIDIA®
+            GeForce RTX™ 40 Series graphics. Get a US$200 Gift Card with the purchase of any RTX 30 Series laptops.
+            *T&Cs Apply</p>
+            <a href="dream-venda-pc1.php">
+                <button>BUY</button>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pc">
+      <a href="dream-venda-pc2.php">
+        <img src="https://assets2.razerzone.com/images/pnx.assets/df55b8678b4404b48cb85675772298c5/thumb-blade15.webp"
+          alt="Razer Laptop 2">
+      </a>
+      <p>RAZER BLADE 15</p>
+      <div class="overlay">
+        <div class="descrição">
+          <p>Featuring the latest NVIDIA® GeForce RTX™ 40 Series GPUs, 13th Gen Intel® Core™ i7 Processor (14-Core), and
+            the fastest displays. Get a US$200 Gift Card with the purchase of any RTX 30 Series laptops. *T&Cs Apply</p>
+            <a href="dream-venda-pc2.php">
+                <button>BUY</button>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pc">
+      <a href="dream-venda-pc3.php">
+        <img src="https://assets2.razerzone.com/images/pnx.assets/df55b8678b4404b48cb85675772298c5/thumb-blade16.webp"
+          alt="Razer Laptop 3">
+      </a>
+      <p>RAZER BLADE 16</p>
+      <div class="overlay">
+        <div class="descrição">
+          <p>16-inch gaming laptop featuring the world’s first dual-mode mini-LED display, a 13th Gen Intel® Core™ i9 HX
+            processor, and NVIDIA® GeForce RTX™ 40 Series graphics.</p>
+            <a href="dream-venda-pc3.php">
+                <button>BUY</button>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
